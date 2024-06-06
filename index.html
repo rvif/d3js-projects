@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bar chart visualization using d3js</title>
+  </head>
+  <style>
+    * {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 100;
+    }
+    body {
+      text-align: center;
+      background-color: rgb(93, 28, 153);
+      color: #fff;
+      font-size: 25px;
+    }
+    .bar {
+      fill: white;
+      transition: fill 0s, opacity 0.2s;
+    }
+    .bar:hover {
+      fill: #5c1c97;
+      transition-delay: 0s;
+    }
+    svg {
+      margin: 150px;
+    }
+  </style>
+  <body>
+    <h1 id="title"></h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
