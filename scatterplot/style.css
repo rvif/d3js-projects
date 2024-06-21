@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(20, 62, 62);
+}
+
+.dot:hover {
+  fill: rgb(221, 221, 221);
+}
+
+#title {
+  fill: white;
+  font-size: 22px;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+svg {
+  background-color: rgb(62, 16, 85);
+  margin: 20px;
+  padding: 20px;
+}
+
+#tooltip {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+
+g {
+  color: rgb(246, 246, 246);
+}
+
+#legend {
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: center;
+}
